@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{09F1C10D-0F6E-45B9-8B06-F898641273E8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Week1Merlin</RootNamespace>
+    <ProjectName>Week 9 Merlin</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)..\libraries\AlienFX;$(ProjectDir)..\libraries\bullet3-2.83.6\src\BulletDynamics\Character;$(ProjectDir)..\libraries\bullet3-2.83.6\src\BulletCollision\CollisionDispatch;$(ProjectDir)..\libraries\bullet3-2.83.6\src;$(ProjectDir)..\libraries\LuaBridge-master\Source\LuaBridge;$(ProjectDir)..\libraries\2016.0\fbx;$(ProjectDir)..\libraries\2016.0\include\fbxsdk\fileio;$(ProjectDir)..\Week 1 Merlin\Components;$(ProjectDir)..\libraries\glfw-3.1.2.bin.WIN32\include\GLFW;$(ProjectDir)..\Week 1 Merlin;$(ProjectDir)..\Week 1 Merlin\Core;$(ProjectDir)..\libraries\glm\glm\gtx;$(ProjectDir)..\libraries\glm\glm;$(ProjectDir)..\libraries\glm\glm\gtc;$(ProjectDir)..\libraries\glew-1.10.0\include\GL;$(ProjectDir)..\Week 1 Merlin\Level;$(ProjectDir)..\libraries\2016.0\include\fbxsdk\scene\geometry;$(ProjectDir)..\libraries\2016.0\include;$(ProjectDir)..\libraries\lua-5.3.0\src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)..\libraries\bullet3-2.83.6\bin;$(ProjectDir)..\libraries\2016.0\lib\vs2013\x86\debug;$(ProjectDir)..\libraries\glfw-3.1.2.bin.WIN32\lib-vc2013;$(ProjectDir)..\libraries\glew-1.10.0\lib\Release\Win32;$(ProjectDir)..\libraries\lua-5.3.0\src;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)..\libraries\bullet3-2.83.6\src;$(ProjectDir)..\libraries\LuaBridge-master\Source\LuaBridge;$(ProjectDir)..\libraries\2016.0\fbx;$(ProjectDir)..\libraries\2016.0\include\fbxsdk\fileio;$(ProjectDir)..\Week 1 Merlin\Components;$(ProjectDir)..\libraries\glfw-3.1.2.bin.WIN32\include\GLFW;$(ProjectDir)..\Week 1 Merlin;$(ProjectDir)..\Week 1 Merlin\Core;$(ProjectDir)..\libraries\glm\glm\gtx;$(ProjectDir)..\libraries\glm\glm;$(ProjectDir)..\libraries\glm\glm\gtc;$(ProjectDir)..\libraries\glew-1.10.0\include\GL;$(ProjectDir)..\Week 1 Merlin\Level;$(ProjectDir)..\libraries\2016.0\include\fbxsdk\scene\geometry;$(ProjectDir)..\libraries\2016.0\include;$(ProjectDir)..\libraries\lua-5.3.0\src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)..\libraries\bullet3-2.83.6\bin;$(ProjectDir)..\libraries\2016.0\lib\vs2013\x86\debug;$(ProjectDir)..\libraries\glfw-3.1.2.bin.WIN32\lib-vc2013;$(ProjectDir)..\libraries\glew-1.10.0\lib\Release\Win32;$(ProjectDir)..\libraries\lua-5.3.0\src;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32.lib;libfbxsdk-md.lib;lua5.3.0.lib;BulletCollision_vs2010_debug.lib;BulletDynamics_vs2010_debug.lib;LinearMath_vs2010_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32.lib;libfbxsdk-md.lib;lua5.3.0.lib;BulletCollision_vs2010_debug.lib;BulletDynamics_vs2010_debug.lib;LinearMath_vs2010_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\Camera.h" />
+    <ClInclude Include="Components\CharacterController.h" />
+    <ClInclude Include="Components\Component.h" />
+    <ClInclude Include="Components\Knight.h" />
+    <ClInclude Include="Core\CubeMesh.h" />
+    <ClInclude Include="Core\Graphics.h" />
+    <ClInclude Include="Core\LinkedList.h" />
+    <ClInclude Include="Core\Material.h" />
+    <ClInclude Include="Core\Mesh.h" />
+    <ClInclude Include="Core\Physics.h" />
+    <ClInclude Include="Core\GameObject.h" />
+    <ClInclude Include="Core\Object.h" />
+    <ClInclude Include="Components\Light.h" />
+    <ClInclude Include="Core\PhysicsDebug.h" />
+    <ClInclude Include="Core\Shader.h" />
+    <ClInclude Include="Core\FBXMesh.h" />
+    <ClInclude Include="Core\InputManager.h" />
+    <ClInclude Include="Core\SphereMesh.h" />
+    <ClInclude Include="Level\Level.h" />
+    <ClInclude Include="Components\Renderer.h" />
+    <ClInclude Include="Components\MeshRenderer.h" />
+    <ClInclude Include="Components\Script.h" />
+    <ClInclude Include="Components\RigidBody.h" />
+    <ClInclude Include="Core\LightSystem.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Components\Transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Components\Camera.cpp" />
+    <ClCompile Include="Components\CharacterController.cpp" />
+    <ClCompile Include="Components\Component.cpp" />
+    <ClCompile Include="Components\Knight.cpp" />
+    <ClCompile Include="Core\CubeMesh.cpp" />
+    <ClCompile Include="Core\Graphics.cpp" />
+    <ClCompile Include="Core\Material.cpp" />
+    <ClCompile Include="Core\Physics.cpp" />
+    <ClCompile Include="Core\GameObject.cpp" />
+    <ClCompile Include="Core\Object.cpp" />
+    <ClCompile Include="Components\Light.cpp" />
+    <ClCompile Include="Core\PhysicsDebug.cpp" />
+    <ClCompile Include="Core\Shader.cpp" />
+    <ClCompile Include="Core\FBXMesh.cpp" />
+    <ClCompile Include="Core\InputManager.cpp" />
+    <ClCompile Include="Core\SphereMesh.cpp" />
+    <ClCompile Include="Level\Level.cpp" />
+    <ClCompile Include="Components\MeshRenderer.cpp" />
+    <ClCompile Include="Components\Script.cpp" />
+    <ClCompile Include="Components\RigidBody.cpp" />
+    <ClCompile Include="Core\LightSystem.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Core\Week 1 Merlin.cpp" />
+    <ClCompile Include="Components\Transform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Assets\Scripts\BoxScript.lua" />
+    <None Include="..\Assets\Scripts\CameraScript.lua" />
+    <None Include="..\Assets\Scripts\MoveScript.lua" />
+    <None Include="..\Assets\Shaders\PointLight.frag" />
+    <None Include="..\Assets\Shaders\PointLight.vert" />
+    <None Include="..\Assets\Shaders\TexturedPointLight.frag" />
+    <None Include="..\Assets\Shaders\TexturedPointLight.vert" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

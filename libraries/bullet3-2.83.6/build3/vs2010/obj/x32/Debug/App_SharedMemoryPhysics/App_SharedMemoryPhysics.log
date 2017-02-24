@@ -1,0 +1,202 @@
+﻿  main.cpp
+  PhysicsClient.cpp
+  PhysicsClientC_API.cpp
+  PhysicsClientExample.cpp
+  PhysicsServer.cpp
+  PhysicsServerExample.cpp
+  PosixSharedMemory.cpp
+  RobotControlExample.cpp
+..\..\examples\SharedMemory\PhysicsClientC_API.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+  Win32SharedMemory.cpp
+  MyMultiBodyCreator.cpp
+  BulletUrdfImporter.cpp
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\examples\SharedMemory\main.cpp)
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+..\..\examples\SharedMemory\PhysicsClient.cpp(322): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\SharedMemory\PhysicsClient.cpp(328): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\SharedMemory\PhysicsClient.cpp(331): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\SharedMemory\PhysicsClient.cpp(334): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\SharedMemory\PhysicsClient.cpp(339): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\SharedMemory\PhysicsClient.cpp(345): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\SharedMemory\PhysicsClient.cpp(348): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\SharedMemory\PhysicsClient.cpp(351): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+c:\bnu\modules\co667 game engine development\merlin\libraries\bullet3-2.83.6\examples\sharedmemory\../CommonInterfaces/CommonMultiBodyBase.h(333): warning C4316: 'btMultiBodyPoint2Point' : object allocated on the heap may not be aligned 16 (..\..\examples\SharedMemory\PhysicsServerExample.cpp)
+  UrdfParser.cpp
+c:\bnu\modules\co667 game engine development\merlin\libraries\bullet3-2.83.6\examples\sharedmemory\../CommonInterfaces/CommonMultiBodyBase.h(333): warning C4316: 'btMultiBodyPoint2Point' : object allocated on the heap may not be aligned 16 (..\..\examples\SharedMemory\main.cpp)
+c:\bnu\modules\co667 game engine development\merlin\libraries\bullet3-2.83.6\examples\sharedmemory\../CommonInterfaces/CommonMultiBodyBase.h(333): warning C4316: 'btMultiBodyPoint2Point' : object allocated on the heap may not be aligned 16 (..\..\examples\SharedMemory\RobotControlExample.cpp)
+..\..\examples\SharedMemory\PhysicsServer.cpp(477): warning C4244: '=' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(478): warning C4244: '=' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(479): warning C4244: '=' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(483): warning C4244: '=' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(484): warning C4244: '=' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(485): warning C4244: '=' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(486): warning C4244: '=' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(488): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\examples\SharedMemory\PhysicsServer.cpp(489): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\examples\SharedMemory\PhysicsServer.cpp(536): warning C4316: 'btMultiBodyJointFeedback' : object allocated on the heap may not be aligned 16
+..\..\examples\SharedMemory\PhysicsServer.cpp(599): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(602): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(612): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(637): warning C4244: 'initializing' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(640): warning C4244: 'initializing' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(772): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(819): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(828): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+..\..\examples\SharedMemory\PhysicsServer.cpp(839): warning C4244: 'argument' : conversion from 'const double' to 'const btScalar', possible loss of data
+..\..\examples\SharedMemory\RobotControlExample.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\SharedMemory\RobotControlExample.cpp(351): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+c:\bnu\modules\co667 game engine development\merlin\libraries\bullet3-2.83.6\examples\importers\importurdfdemo\../ImportSTLDemo/LoadMeshFromSTL.h(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp)
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+c:\bnu\modules\co667 game engine development\merlin\libraries\bullet3-2.83.6\examples\sharedmemory\../CommonInterfaces/CommonMultiBodyBase.h(333): warning C4316: 'btMultiBodyPoint2Point' : object allocated on the heap may not be aligned 16 (..\..\examples\SharedMemory\PhysicsClientExample.cpp)
+  urdfStringSplit.cpp
+..\..\examples\SharedMemory\PhysicsClientExample.cpp(98): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\src\Bullet3Common/b3FileUtils.h(25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp)
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\src\Bullet3Common/b3FileUtils.h(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp)
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+..\..\examples\SharedMemory\PhysicsClientExample.cpp(290): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(106): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(213): warning C4244: '=' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(216): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(244): warning C4244: '=' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(245): warning C4244: '=' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(280): warning C4244: 'initializing' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(281): warning C4244: 'initializing' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(283): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(285): warning C4244: '=' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(309): warning C4244: 'initializing' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(341): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(357): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(358): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(64): warning C4316: 'GenericConstraintUserInfo' : object allocated on the heap may not be aligned 16
+..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(147): warning C4316: 'GenericConstraintUserInfo' : object allocated on the heap may not be aligned 16
+..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(171): warning C4316: 'GenericConstraintUserInfo' : object allocated on the heap may not be aligned 16
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(584): warning C4244: 'initializing' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(585): warning C4244: 'initializing' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(593): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(595): warning C4244: '=' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(625): warning C4244: 'initializing' : conversion from 'const double' to 'btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(647): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(654): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(671): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(672): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(25): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(46): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(134): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(752): warning C4316: 'UrdfMaterial' : object allocated on the heap may not be aligned 16
+..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(768): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(774): warning C4316: 'UrdfLink' : object allocated on the heap may not be aligned 16
+..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(822): warning C4316: 'UrdfJoint' : object allocated on the heap may not be aligned 16
+  URDF2Bullet.cpp
+  b3ResourcePath.cpp
+  b3Clock.cpp
+  btBulletWorldImporter.cpp
+  btWorldImporter.cpp
+  bChunk.cpp
+  bDNA.cpp
+  bFile.cpp
+  btBulletFile.cpp
+  Wavefront2GLInstanceGraphicsShape.cpp
+  LoadMeshFromObj.cpp
+..\..\Extras\Serialize\BulletFileLoader\bFile.cpp(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+..\..\Extras\Serialize\BulletFileLoader\bFile.cpp(585): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+..\..\Extras\Serialize\BulletFileLoader\btBulletFile.cpp(371): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+  LoadMeshFromCollada.cpp
+  tiny_obj_loader.cpp
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\src\Bullet3Common/b3FileUtils.h(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\examples\Utils\b3ResourcePath.cpp)
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\src\Bullet3Common/b3FileUtils.h(25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\examples\Utils\b3ResourcePath.cpp)
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\src\Bullet3Common/b3FileUtils.h(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\examples\Utils\b3ResourcePath.cpp)
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+..\..\examples\Utils\b3ResourcePath.cpp(67): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\examples\Utils\b3ResourcePath.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1000): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1004): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1007): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1278): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1327): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1327): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1328): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1330): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1330): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1334): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1334): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1335): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1337): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1337): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+  pose.cpp
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\src\Bullet3Common/b3FileUtils.h(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp)
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\src\Bullet3Common/b3FileUtils.h(25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp)
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\src\Bullet3Common/b3FileUtils.h(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp)
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp(47): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp(59): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp(60): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp(496): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  model.cpp
+..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(353): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(589): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(605): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(661): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+  link.cpp
+  joint.cpp
+  tinystr.cpp
+  tinyxml.cpp
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\examples\ThirdPartyLibs\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\pose.cpp)
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  printf_console.cpp
+  string_split.cpp
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\examples\ThirdPartyLibs\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\link.cpp)
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\examples\ThirdPartyLibs\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\joint.cpp)
+c:\bnu\modules\co667 game engine development\merlin\libraries\bullet3-2.83.6\examples\thirdpartylibs\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data (..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\link.cpp)
+c:\bnu\modules\co667 game engine development\merlin\libraries\bullet3-2.83.6\examples\thirdpartylibs\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(78): warning C4101: 'e' : unreferenced local variable (..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\link.cpp)
+C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\examples\ThirdPartyLibs\urdf/urdfdom_headers/urdf_model/include/urdf_model/pose.h(82): warning C4101: 'e' : unreferenced local variable (..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\model.cpp)
+c:\bnu\modules\co667 game engine development\merlin\libraries\bullet3-2.83.6\examples\thirdpartylibs\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data (..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\model.cpp)
+c:\bnu\modules\co667 game engine development\merlin\libraries\bullet3-2.83.6\examples\thirdpartylibs\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(78): warning C4101: 'e' : unreferenced local variable (..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\model.cpp)
+c:\bnu\modules\co667 game engine development\merlin\libraries\bullet3-2.83.6\examples\thirdpartylibs\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data (..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\joint.cpp)
+c:\bnu\modules\co667 game engine development\merlin\libraries\bullet3-2.83.6\examples\thirdpartylibs\urdf\urdfdom_headers\urdf_model\include\urdf_model\color.h(78): warning C4101: 'e' : unreferenced local variable (..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\joint.cpp)
+..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\link.cpp(133): warning C4101: 'e' : unreferenced local variable
+..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\link.cpp(184): warning C4101: 'e' : unreferenced local variable
+..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\link.cpp(197): warning C4101: 'e' : unreferenced local variable
+..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\link.cpp(316): warning C4101: 'e' : unreferenced local variable
+..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\link.cpp(348): warning C4101: 'e' : unreferenced local variable
+..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\joint.cpp(107): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\model.cpp(106): warning C4101: 'e' : unreferenced local variable
+..\..\examples\ThirdPartyLibs\urdf\urdfdom\urdf_parser\src\model.cpp(163): warning C4101: 'e' : unreferenced local variable
+  App_SharedMemoryPhysics.vcxproj -> C:\BNU\Modules\CO667 Game Engine Development\Merlin\libraries\bullet3-2.83.6\build3\vs2010\..\..\bin\App_SharedMemoryPhysics_vs2010_debug.exe
